@@ -40,3 +40,6 @@ Route::get('board/add', 'BoardController@add');
 Route::post('board/add', 'BoardController@create');
 
 Route::resource('rest', 'RestappController');
+
+Route::get('hello/session', 'HelloController@ses_get');
+Route::post('hello/session', 'HelloController@ses_put');
